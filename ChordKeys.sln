@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChordKeys", "ChordKeys\ChordKeys.csproj", "{B3C0B206-BF02-4EBF-A84E-9F537084145F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChordKeysInstaller", "ChordKeysInstaller\ChordKeysInstaller.csproj", "{D52349D6-8532-4BBF-9A37-2DAC70FA2463}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F} = {B3C0B206-BF02-4EBF-A84E-9F537084145F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChordKeysUninstaller", "ChordKeysUninstaller\ChordKeysUninstaller.csproj", "{A5038369-6847-4FB0-862A-59B28F16090C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Install|Any CPU = Install|Any CPU
+		Install|x64 = Install|x64
+		Install|x86 = Install|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Debug|x64.ActiveCfg = Release|x64
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Debug|x64.Build.0 = Release|x64
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Debug|x86.ActiveCfg = Debug|x86
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Debug|x86.Build.0 = Debug|x86
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Install|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Install|x64.ActiveCfg = Debug|x64
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Install|x64.Build.0 = Debug|x64
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Install|x86.ActiveCfg = Release|x86
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Release|x64.ActiveCfg = Release|x64
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Release|x64.Build.0 = Release|x64
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Release|x86.ActiveCfg = Release|x86
+		{B3C0B206-BF02-4EBF-A84E-9F537084145F}.Release|x86.Build.0 = Release|x86
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Debug|x64.Build.0 = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Debug|x86.Build.0 = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Install|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Install|Any CPU.Build.0 = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Install|x64.ActiveCfg = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Install|x64.Build.0 = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Install|x86.ActiveCfg = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Install|x86.Build.0 = Debug|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Release|x64.ActiveCfg = Release|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Release|x64.Build.0 = Release|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Release|x86.ActiveCfg = Release|Any CPU
+		{D52349D6-8532-4BBF-9A37-2DAC70FA2463}.Release|x86.Build.0 = Release|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Debug|x64.Build.0 = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Debug|x86.Build.0 = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Install|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Install|Any CPU.Build.0 = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Install|x64.ActiveCfg = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Install|x64.Build.0 = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Install|x86.ActiveCfg = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Install|x86.Build.0 = Debug|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Release|x64.ActiveCfg = Release|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Release|x64.Build.0 = Release|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Release|x86.ActiveCfg = Release|Any CPU
+		{A5038369-6847-4FB0-862A-59B28F16090C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECD74E27-87EA-4912-B298-345F976644D5}
+	EndGlobalSection
+EndGlobal
