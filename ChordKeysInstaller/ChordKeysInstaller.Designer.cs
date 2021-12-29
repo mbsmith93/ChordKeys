@@ -1,4 +1,4 @@
-﻿namespace ChordKeys
+﻿namespace ChordKeysInstaller
 {
     partial class ChordKeysInstaller
     {

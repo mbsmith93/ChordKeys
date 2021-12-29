@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChordKeys", "ChordKeys\Chor
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ChordKeysSetup", "ChordKeysSetup\ChordKeysSetup.vdproj", "{8D56C983-D8DD-4CDC-B78C-05DEF5499233}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChordKeysInstaller", "ChordKeysInstaller\ChordKeysInstaller.csproj", "{633E955D-3165-4883-A886-98368E418AFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,24 @@ Global
 		{8D56C983-D8DD-4CDC-B78C-05DEF5499233}.Release|x64.ActiveCfg = Release
 		{8D56C983-D8DD-4CDC-B78C-05DEF5499233}.Release|x64.Build.0 = Release
 		{8D56C983-D8DD-4CDC-B78C-05DEF5499233}.Release|x86.ActiveCfg = Release
+		{633E955D-3165-4883-A886-98368E418AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Debug|x64.Build.0 = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Debug|x86.Build.0 = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Install|Any CPU.ActiveCfg = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Install|Any CPU.Build.0 = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Install|x64.ActiveCfg = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Install|x64.Build.0 = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Install|x86.ActiveCfg = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Install|x86.Build.0 = Debug|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Release|x64.ActiveCfg = Release|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Release|x64.Build.0 = Release|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Release|x86.ActiveCfg = Release|Any CPU
+		{633E955D-3165-4883-A886-98368E418AFF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

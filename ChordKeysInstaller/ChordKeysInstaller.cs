@@ -9,7 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace ChordKeys
+namespace ChordKeysInstaller
 {
     [RunInstaller(true)]
     public partial class ChordKeysInstaller : System.Configuration.Install.Installer
@@ -17,10 +17,11 @@ namespace ChordKeys
         public ChordKeysInstaller()
         {
             InitializeComponent();
-            this.Committed += new InstallEventHandler(MyInstaller_Committed);
         }
-        private void MyInstaller_Committed(object sender, InstallEventArgs e)
+
+        public override void Commit(IDictionary savedState)
         {
+            base.Commit(savedState);
             Directory.SetCurrentDirectory(Path.GetDirectoryName
             (Assembly.GetExecutingAssembly().Location));
             Process.Start(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\ChordKeys.exe");
