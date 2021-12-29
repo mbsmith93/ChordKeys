@@ -110,9 +110,6 @@
   <ItemGroup>
     <Compile Include="ChordDictionary.cs" />
     <Compile Include="Output.cs" />
-    <Compile Include="HiddenForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="KeyboardHook.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>

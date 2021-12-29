@@ -12,8 +12,7 @@ namespace ChordKeys
         static void Main()
         {
             KeyboardHook.Init();
-            Form form = new HiddenForm();
-            Application.Run(form);
+            Application.Run();
         }
     }
 }
