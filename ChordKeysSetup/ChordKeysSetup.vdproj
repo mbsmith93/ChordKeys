@@ -139,7 +139,7 @@
             "Sequence" = "3:1"
             "Identifier" = "8:_D1B5A370_8D00_48A0_A665_665366907C5B"
             "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
+            "CustomActionData" = "8:/TargetDir=\"[TARGETDIR]\\\""
             }
             "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_2AF9096A134040CA8828FDA6FFFF7F06"
             {
@@ -294,7 +294,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ChordKeys"
         "ProductCode" = "8:{1CD8F847-8E5B-4595-9807-0E21F0033249}"
-        "PackageCode" = "8:{3A4C463C-B9FC-472C-B9C2-87D4C7F4D815}"
+        "PackageCode" = "8:{7AD6D105-F879-4294-9567-97436D8FE42A}"
         "UpgradeCode" = "8:{AEE6D115-95F8-4A82-9D84-00BA3C45BF46}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
