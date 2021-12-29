@@ -1,5 +1,6 @@
 ﻿using Microsoft.Win32;
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,6 +20,9 @@ namespace ChordKeysUninstaller
             Application.SetCompatibleTextRenderingDefault(false);
             RegistryKey registryKey = Registry.CurrentUser.OpenSubKey
                 ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+            string exeLocation = (string)registryKey.GetValue("ChordKeys");
+            string installationDirectory = Path.GetDirectoryName(exeLocation);
+            Directory.Delete(installationDirectory, true);
             registryKey.DeleteValue("ChordKeys", false);
             Application.Run(new FinishDialogue());
         }
