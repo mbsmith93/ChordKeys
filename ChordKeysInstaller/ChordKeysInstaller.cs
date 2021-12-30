@@ -18,5 +18,14 @@ namespace ChordKeysInstaller
             string targetDir = Context.Parameters["TargetDir"];
             Process.Start(targetDir + "\\ChordKeys.exe");
         }
+
+        public override void Uninstall(IDictionary savedState)
+        {
+            base.Uninstall(savedState);
+            foreach (Process process in Process.GetProcessesByName("ChordKeys"))
+            {
+                process.Kill();
+            }
+        }
     }
 }
