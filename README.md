@@ -48,7 +48,9 @@ I found 30ms works for me. You may need to build some muscle memory and it may t
 ## Caveats
 This probably won't play nice with any other application that intercepts keystrokes. You can have them both installed, but I can't tell you what will happen if you do something that triggers both applications at the same time.  
 
-The background process may get killed for no apparent reason. This has only happened to me once so far. Let me know if it happens to you. In the meantime you can either restart or find and run ChordKeys.exe in the ProgramFiles/ChordKeys directory.
+The background process may get killed for no apparent reason. This has only happened to me once so far after weeks of use. Let me know if it happens to you and I'll look harder into fixing it. In the meantime you can either restart or find and run ChordKeys.exe in the ProgramFiles/ChordKeys directory.
+
+The chord mappings were based on a standard US-QWERTY keyboard, and may not be ergonomic or make much sense on other layouts. If there is demand I will allow for alternate settings that may make more sense on other keyboards.
 
 ## I want this but I'm running Mac or Linux
 Sorry, I currently only made this for Windows. I will probably make a variant for Linux in the future but don't hold your breath. If you want a version for Mac I invite you to add one yourself and submit a pull request.
