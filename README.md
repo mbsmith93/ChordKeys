@@ -10,7 +10,7 @@ I made ChordKeys because I found the existing options frustratingly slow and un-
 * WinCompose - compose key for windows. Every combo takes three keys, because you have to start with the compose key. This is slow, and if you make your compose key right ALT like I did your right hand may start to hurt when you're typing a lot of special characters. Still an excellent piece of software.
 
 ## Installation
-Download the latest setup.exe file from the releases page and run it. This software is not properly signed so you will have to give permissions for software from "unknown publisher" to run (If you know how to fix this feel free to submit a pull request or something). When you are done with setup, ChordKeys will be run automatically, and is set-up to run after you log into your account.
+Download the latest ChordKeysSetup.msi file from the releases page and run it. This software is not properly signed so you will have to give permissions for software from "unknown publisher" to run (If you know how to fix this feel free to submit a pull request or something). When you are done with setup, ChordKeys will be run automatically, and is set-up to run after you log into your account.
 
 ## Help I want to uninstall
 Use Window's Add or Remove programs tool. When you uninstall ChordKeys through that tool, it should kill the currently running ChordKeys process and completely remove ChordKeys from your system.
