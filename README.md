@@ -10,7 +10,7 @@ I made ChordKeys because I found the existing options frustratingly slow and un-
 * WinCompose - compose key for windows. Every combo takes three keys, because you have to start with the compose key. This is slow, and if you make your compose key right ALT like I did your right hand may start to hurt when you're typing a lot of special characters. Still an excellent piece of software.
 
 ## Installation
-Download the latest setup.exe file from the releases page and run it. This software is not properly signed so you will have to give permissions for software from "unknown publisher" to run (If you know how to fix this feel free to submit a pull request or something). When you are done with setup, ChordKeys will be run automatically, and is set-up to run after you log into your account.
+Download the latest ChordKeysSetup.msi file from the releases page and run it. This software is not properly signed so you will have to give permissions for software from "unknown publisher" to run (If you know how to fix this feel free to submit a pull request or something). When you are done with setup, ChordKeys will be run automatically, and is set-up to run after you log into your account.
 
 ## Help I want to uninstall
 Use Window's Add or Remove programs tool. When you uninstall ChordKeys through that tool, it should kill the currently running ChordKeys process and completely remove ChordKeys from your system.
@@ -22,11 +22,14 @@ Once ChordKeys is installed, certain combinations of characters will produce spe
 * sz -> ß
 * ,c -> ç
 * ,s -> ş
+* /o -> ø
+* 0a -> å
 * ' (or ") + any vowel or y -> acute accent (á, é, í, ó, ú, ý)
-* ^ (or 6) + any vowel or y -> circumflex accent (â, ê, î, ô, û, ŷ)
+* ^ (or 6) + any vowel or y or w -> circumflex accent (â, ê, î, ô, û, ŵ, ŷ)
 * ; (or :) + any vowel or y -> diaresis accent (ä, ë, ï, ö, ü, ÿ)
 * ` (or ~) + any vowel or y -> grave accent (à, è, ì, ò, ù, ỳ)
 * \- (or _) + any vowel but not y -> macron accent (ā, ē, ī, ō, ū)
+* 5 (or %) + any vowel or y or n -> tilde accent (ã, ẽ, ĩ, õ, ũ, ñ, ỹ)
 Other chords:
 * 4e -> €
 * 4l -> ₤
@@ -34,9 +37,13 @@ Other chords:
 * .' -> ›
 * <" -> «
 * \>" -> »
+* 12 -> ¡
+* /2 -> ¿
+* ;, -> ‚ (german left single-quote mark)
+* :< -> „ (german left double-quote mark)
 
 ## The character I'm looking for isn't supported
-I don't know if anyone is actually going to use this software, so I quit when I had everything I needed for myself. However adding additional characters is easy to do. If you need something that isn't available, you can either
+I've done my best to cover common use-cases, but if something you need is missing feel free to let me know and I'll look into it.
 * Edit DefaultChordKeyScript.ck and submit a pull request.
 * Add a bug.
 * Contact me some other way.
@@ -50,7 +57,7 @@ This probably won't play nice with any other application that intercepts keystro
 
 The background process may get killed for no apparent reason. This has only happened to me once so far after weeks of use. Let me know if it happens to you and I'll look harder into fixing it. In the meantime you can either restart or find and run ChordKeys.exe in the ProgramFiles/ChordKeys directory.
 
-The chord mappings were based on a standard US-QWERTY keyboard, and may not be ergonomic or make much sense on other layouts. If there is demand I will allow for alternate settings that may make more sense on other keyboards.
+The chord mappings were based on a standard US-QWERTY keyboard, and may not be ergonomic or make much sense on other layouts. If there is demand for it I will allow for alternate settings that may make more sense on other keyboards.
 
 ## I want this but I'm running Mac or Linux
 Sorry, I currently only made this for Windows. I will probably make a variant for Linux in the future but don't hold your breath. If you want a version for Mac I invite you to add one yourself and submit a pull request.
