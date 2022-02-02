@@ -17,7 +17,7 @@ namespace ChordKeys
             {
                 string x = line[0].ToString();
                 string y = line[1].ToString();
-                string z = line[4].ToString();
+                string z = line.Substring(4);
                 if (String.Compare(x, y) < 0)
                 {
                     _dict.Add(new Tuple<string, string>(x, y), z);

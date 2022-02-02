@@ -12,6 +12,15 @@ namespace ChordKeysInstaller
             InitializeComponent();
         }
 
+        public override void Install(IDictionary stateSaver)
+        {
+            base.Install(stateSaver);
+            foreach (Process process in Process.GetProcessesByName("ChordKeys"))
+            {
+                process.Kill();
+            }
+        }
+
         public override void Commit(IDictionary savedState)
         {
             base.Commit(savedState);

@@ -7,8 +7,8 @@ namespace ChordKeys
     {
         internal static void SendKeyDown(string s)
         {
-            INPUT[] inputs = new INPUT[]
-            {
+            INPUT[] inputs = new INPUT[2 + s.Length];
+            inputs[0] =
                 new INPUT
                 {
                     type = EINPUT.KEYBOARD,
@@ -22,7 +22,8 @@ namespace ChordKeys
                             dwExtraInfo = (UIntPtr)0
                         }
                     }
-                },
+                };
+            inputs[1] =
                 new INPUT
                 {
                     type = EINPUT.KEYBOARD,
@@ -36,8 +37,10 @@ namespace ChordKeys
                             dwExtraInfo = (UIntPtr)0
                         }
                     }
-                },
-                new INPUT
+                };
+            for (int i = 0; i < s.Length; i++)
+            {
+                inputs[2 + i] = new INPUT
                 {
                     type = EINPUT.KEYBOARD,
                     U = new UINPUT
@@ -45,21 +48,22 @@ namespace ChordKeys
                         ki = new KEYBDINPUT
                         {
                             wVk = 0,
-                            wScan = (ScanCodeShort)s[0],
+                            wScan = (ScanCodeShort)s[i],
                             dwFlags = KEYEVENTF.UNICODE,
                             dwExtraInfo = (UIntPtr)0
                         }
                     }
-                }
-            };
+                };
+            }
             SendInput((uint)inputs.Length, inputs, Marshal.SizeOf(typeof(INPUT)));
         }
 
         internal static void SendKeyHeld(string s)
         {
-            INPUT[] inputs = new INPUT[]
+            INPUT[] inputs = new INPUT[s.Length];
+            for (int i = 0;i < inputs.Length;i++)
             {
-                new INPUT
+                inputs[i] = new INPUT
                 {
                     type = EINPUT.KEYBOARD,
                     U = new UINPUT
@@ -67,20 +71,22 @@ namespace ChordKeys
                         ki = new KEYBDINPUT
                         {
                             wVk = 0,
-                            wScan = (ScanCodeShort)s[0],
+                            wScan = (ScanCodeShort)s[i],
                             dwFlags = KEYEVENTF.UNICODE,
                             dwExtraInfo = (UIntPtr)0
                         }
                     }
-                }
-            };
+                };
+            }
             SendInput((uint)inputs.Length, inputs, Marshal.SizeOf(typeof(INPUT)));
         }
 
         internal static void SendKeyUp(string s)
         {
-            INPUT[] inputs = new INPUT[]
-            {new INPUT
+            INPUT[] inputs = new INPUT[s.Length];
+            for (int i =0;i<inputs.Length;i++) 
+            {
+                inputs[i] = new INPUT
                 {
                     type = EINPUT.KEYBOARD,
                     U = new UINPUT
@@ -93,8 +99,8 @@ namespace ChordKeys
                             dwExtraInfo = (UIntPtr)0
                         }
                     }
-                }
-            };
+                };
+            }
             SendInput((uint)inputs.Length, inputs, Marshal.SizeOf(typeof(INPUT)));
         }
 
