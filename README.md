@@ -1,5 +1,5 @@
 # ChordKeys
-ChordKeys is a software application for Windows which runs in the background. It intercepts simultaneous keystrokes (i.e., keystrokes within 30ms of each other) and replaces them with foreign characters when appropriate.
+ChordKeys is a software application for Windows which runs in the background. It intercepts simultaneous keystrokes (i.e., keystrokes within 30ms of each other) and replaces them with foreign characters when appropriate. In its current state I believe it should be sufficient for German, French, Spanish, Italian, Portuguese, Norwegian, Danish, Swedish, romanized Punjabi, and romanized Arabic.
 
 ## Why ChordKeys? What can I use instead?
 I made ChordKeys because I found the existing options frustratingly slow and un-ergonomic. Your alternatives include:
