@@ -24,12 +24,15 @@ Once ChordKeys is installed, certain combinations of characters will produce spe
 * ,s -> ş
 * /o -> ø
 * 0a -> å
+* ng -> ŋ
 * ' (or ") + any vowel or y -> acute accent (á, é, í, ó, ú, ý)
 * ^ (or 6) + any vowel or y or w -> circumflex accent (â, ê, î, ô, û, ŵ, ŷ)
 * ; (or :) + any vowel or y -> diaresis accent (ä, ë, ï, ö, ü, ÿ)
 * ` (or ~) + any vowel or y -> grave accent (à, è, ì, ò, ù, ỳ)
 * \- (or _) + any vowel but not y -> macron accent (ā, ē, ī, ō, ū)
 * 5 (or %) + any vowel or y or n -> tilde accent (ã, ẽ, ĩ, õ, ũ, ñ, ỹ)
+* h (or H) + any stop consonant -> aspirated stop (bʰ, cʰ, dʰ, gʰ, jʰ, kʰ, pʰ, rʰ, tʰ)
+* . (or >) + (h, s, d, t or z) -> underdotted character (ḥ, ṣ, ḍ, ṭ, ẓ)
 Other chords:
 * 4e -> €
 * 4l -> ₤
